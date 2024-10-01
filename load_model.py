@@ -2,6 +2,7 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import torch.nn.functional as F
+
 # Load saved model and tokenizer
 saved_path = "./models"
 tokenizer = AutoTokenizer.from_pretrained(saved_path)
