@@ -4,7 +4,7 @@ import torch
 import torch.nn.functional as F
 
 # Load saved model and tokenizer
-saved_path = "./models"
+saved_path = "cardiffnlp/twitter-roberta-base-sentiment-latest"
 tokenizer = AutoTokenizer.from_pretrained(saved_path)
 model = AutoModelForSequenceClassification.from_pretrained(saved_path)
 
